@@ -53,7 +53,7 @@ result:
  ## Files in this repository
 | File Name       |                         Desciption                              |
 | -------------   |:--------------------------------------------------------------: | 
-| main.py         | build all the model, save them and test (original & noisy test) | 
+| main.py         | build all the models, save them and test (original & noisy test) | 
 | func.py         | all the functions to run main                                   | 
-| images.py       | demonstate datasets images with and without augmentation        | 
+| images.py       | demonstrate datasets images with and without augmentation        | 
 
