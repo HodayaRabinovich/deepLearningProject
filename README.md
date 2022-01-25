@@ -13,15 +13,15 @@ we used [325 bird species](https://www.kaggle.com/gpiosenka/100-bird-species) fr
 ## Transfer Learning
 we chose 4 pre-trained models to work with - ResNet50, ResNet18, vgg16 and DenseNet.
 Applying feature extraction we traind only the last FC layer in each network.
-we get the following results:
+we got the following results:
 
 |               | ResNet50  | ResNet18  | Vgg16    | DenseNet  |
 | ------------- |:---------:|:---------:|:--------:|----------:|
 | Test accuracy | 85.47%    | 89.1%     | 89.84%   | 93.04%    |
 
 ## Noise & Robustness
-we want to check the network results for images that were taken at different times of the day (night, sunset, etc.).
-So we add Color Jitter to the test set. In addition we add gaussian noise ~ N(0,1) which doesn't have a visual influence.
+we wanted to check the network results for images that were taken at different times of the day (night, sunset, etc.).
+So we added Color Jitter to the test set. In addition we added gaussian noise ~ N(0,1) which doesn't have a visual influence.
 The results:
 |                     | ResNet50  | ResNet18  | Vgg16    | DenseNet  |
 | -------------       |:---------:|:---------:|:--------:|----------:|
@@ -29,7 +29,7 @@ The results:
 
 ## Augmentation
 From now on we focused on ResNet18.
-In attempt to improve the results we add augmentation and trained the last FC layer again.
+In attempt to improve the results we added augmentation and trained the last FC layer again.
 
 |                     | ResNet18  | ResNet18 with aug |
 | -------------       |:---------:| -----------------:|
