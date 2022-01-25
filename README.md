@@ -1,7 +1,7 @@
 # Bird Species Classification - Transfer Learning & Networks Robustness
 
 In this project we used tranfer learning to adjust pre-trained network to a new dataset.
-We "attacked" the networks with noise, check their robustness and tried to improve one of the network.
+We "attacked" the networks with noise, checked their robustness and tried to improve one of the network.
 
 ## Dataset
 we used [325 bird species](https://www.kaggle.com/gpiosenka/100-bird-species) from kaggle
