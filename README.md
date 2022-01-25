@@ -1,5 +1,4 @@
-# deepLearningProject
-# Bird Species Classification - Transfer Learning % Networks Robustness
+# Bird Species Classification - Transfer Learning & Networks Robustness
 
 In this project we used tranfer learning to adjust pre-trained network to a new dataset.
 We "attacked" the networks with noise, check their robustness and tried to improve one of the network.
