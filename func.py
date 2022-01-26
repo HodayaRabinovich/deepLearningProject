@@ -249,7 +249,10 @@ def build_model(modelName, feature_extract, fileName, aug):
                 print("\t", name)
 
     # Observe that all parameters are being optimized
-    optimizer_ft = torch.optim.SGD(params_to_update, lr=0.001, momentum=0.9)
+    lr = 0.001
+    if (not feature_extract):
+        lr = 0.0001
+    optimizer_ft = torch.optim.SGD(params_to_update, lr=lr, momentum=0.9)
 
     """
     Training function
