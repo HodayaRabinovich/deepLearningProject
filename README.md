@@ -5,6 +5,7 @@ We "attacked" the networks with noise, checked their robustness and tried to imp
 
 ## Dataset
 we used [325 bird species](https://www.kaggle.com/gpiosenka/100-bird-species) from kaggle
+make sure to download the dataset to a folder named 'data' or to change the data dir correctly 
 
 * 224x224x3 color images
 * 325 classes
